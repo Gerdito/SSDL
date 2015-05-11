@@ -90,7 +90,7 @@ namespace SSDLAdmin
         public static string TLDApplicatioFormSpanish = sApplicationTemplatesFolder + "TLDApplicationFormSpanish.pdf";
 
         public static string TLDDataSheetTemplateRTSSDL = sApplicationTemplatesFolder + "TLDDataSheetTemplateRT-SSDL.pdf";
-        // public static string TLDDataSheetTemplateRPSSDL = sApplicationTemplatesFolder + "TLDDataSheetTemplateRP-SSDL.pdf"; change done for Paulina April 6th, 2015
+        // public static string TLDDataSheetTemplateRPSSDL = sApplicationTemplatesFolder + "TLDDataSheetTemplateRP-SSDL.pdf"; change done for Paulina May 6th, 2015
         public static string TLDDataSheetTemplateRPSSDL = sApplicationTemplatesFolder + "OSLDDataSheetTemplateRP-SSDL.pdf";
 
         public static string TLDDataSheetTemplateRTSSDLElectrones = sApplicationTemplatesFolder + "TLDDataSheetTemplateRT-SSDL-Electrones.pdf";

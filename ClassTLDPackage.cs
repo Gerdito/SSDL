@@ -2910,8 +2910,7 @@ namespace SSDLAdmin
                             // Add TLD DataSheet
                             string sOutputFile = TLDSet.TLDDataSheet.ExportTLDDataSheet("PrePopulated");
                             if (File.Exists(sOutputFile))
-                                // sAttachments = sAttachments + sOutputFile + ";";
-                                sAttachments = sAttachments + ";"; //change done for Paulina April 6th, 2015
+                                sAttachments = sAttachments + sOutputFile + ";"; //2nd change done for Paulina April 6th, 2015 to allow for new attachment
                         }
                     }
                     sSetNo = sSetNo.TrimEnd(',');
@@ -2926,7 +2925,7 @@ namespace SSDLAdmin
                         if (sTLDInstructionSheet != string.Empty)
                             //if (File.Exists(sTLDInstructionSheet))
                                 //sAttachments = sAttachments + sTLDInstructionSheet + ";";
-                            sAttachments = sAttachments + ";"; //change done for Paulina April 6th, 2015
+                            sAttachments = sAttachments + ";"; //change done for Paulina May 6th, 2015
                     }
        
                     try
