@@ -2924,8 +2924,8 @@ namespace SSDLAdmin
                         string sTLDInstructionSheet = this.Batch.PrepopulateTLDInstructionSheet(this.ParticipationType, this.CommunicationLanguage, this.PackageType, sBeamTypeList);
                         if (sTLDInstructionSheet != string.Empty)
                             //if (File.Exists(sTLDInstructionSheet))
-                                //sAttachments = sAttachments + sTLDInstructionSheet + ";";
-                            sAttachments = sAttachments + ";"; //change done for Paulina May 6th, 2015
+                                sAttachments = sAttachments + sTLDInstructionSheet + ";"; //change reverted for Paulina May 13th, 2015
+                                //sAttachments = sAttachments + ";"; change done for Paulina May 6th, 2015
                     }
        
                     try

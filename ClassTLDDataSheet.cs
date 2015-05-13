@@ -2864,7 +2864,7 @@ namespace SSDLAdmin
                     {
                         string sFilePath = GlobalClass.sApplicationTempPath;
                         // string sFileName = "TLDDataSheet" + this.TLDSet.AuditType + "_" + this.TLDSet.SetNo + ".pdf";
-                        string sFileName = "OSLDDataSheet" + this.TLDSet.AuditType + "_" + this.TLDSet.SetNo + ".pdf"; //change done for Paulina May 11th, 2015
+                        string sFileName = "DataSheet" + this.TLDSet.AuditType + "_" + this.TLDSet.SetNo + ".pdf"; //change done for Paulina May 13th, 2015
 
                         if (!Directory.Exists(sFilePath))
                             Directory.CreateDirectory(sFilePath);
